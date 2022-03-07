@@ -11,3 +11,37 @@
   display: table;
   clear: both;
 }
+
+/* STRUCTURE */
+
+.container{
+  width: 77%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.container .product{
+  width: 33%;
+  display: inline-block;
+  padding: 7.5px;
+}
+
+.thumbnail{
+  width: 100%;
+  position: relative;
+}
+
+.product .thumbnail img{
+  width: 100%;
+}
+
+.product img:nth-child(2){
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.product:hover img:nth-child(2){
+  display: block;
+}
