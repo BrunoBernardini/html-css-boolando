@@ -16,7 +16,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p, .label{
+p, .labels{
   font-size: 15px;
 }
 
@@ -75,26 +75,30 @@ p, .label{
   color: red;
 }
 
-.label{
+.labels{
+  position: absolute;
+  left: 0;
+  bottom: 25px;
   color: white;
   font-weight: bold;
 }
 
-.label.discount{
-  position: absolute;
+.discount{
+  float: left;
+  margin-right: 5px;
+  width: 44px;
   background-color: #eb0036;
-  left: 0;
-  bottom: 20px;
   padding: 5px;
 }
 
-.label.sustainability::before{
-  content: 'Sostenibilità';
-  position: absolute;
+.sustainability{
+  float: left;
   background-color: #00875a;
   padding: 5px;
-  left: 50px;
-  bottom: 20px;
+}
+
+.sustainability::before{
+  content: 'Sostenibilità';
 }
 
 /* TEXT */
