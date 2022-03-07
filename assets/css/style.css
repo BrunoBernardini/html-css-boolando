@@ -59,6 +59,14 @@ body{
   font-size: 15px;
 }
 
+.product p:last-of-type{
+  margin-bottom: 30px;
+}
+
+.product h4{
+  text-transform: uppercase;
+}
+
 .price::after{
   content: ' \20AC';
 }
