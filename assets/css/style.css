@@ -28,6 +28,7 @@ body{
   display: inline-block;
   padding: 7.5px;
   text-align: left;
+  position: relative;
 }
 
 /* IMAGE & HOVER */
@@ -51,6 +52,18 @@ body{
 
 .product:hover img:nth-child(2){
   display: block;
+}
+
+/* LABELS */
+
+.heart::before{
+  content: '\2665';
+  font-size: 28px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  padding: 10px 15px;
+  background-color: white;
 }
 
 /* TEXT */
