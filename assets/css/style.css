@@ -64,6 +64,11 @@ body{
   top: 20px;
   padding: 10px 15px;
   background-color: white;
+  cursor: pointer;
+}
+
+.heart:hover{
+  color: red;
 }
 
 /* TEXT */
